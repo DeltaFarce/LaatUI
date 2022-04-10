@@ -1,0 +1,40 @@
+ 
+ -------------- celery@sunxinyangdeMacBook-Air.local v5.1.2 (sun-harmonics)
+--- ***** ----- 
+-- ******* ---- Darwin-19.6.0-x86_64-i386-64bit 2022-04-02 02:05:26
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         LaatUI:0x7fc3d5126208
+- ** ---------- .> transport:   redis://101.37.30.155:6379/0
+- ** ---------- .> results:     
+- *** --- * --- .> concurrency: 4 (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+  . cases.task.celery_run_case
+  . cases.task.celery_test
+
+ 
+ -------------- celery@sunxinyangdeMacBook-Air.local v5.1.2 (sun-harmonics)
+--- ***** ----- 
+-- ******* ---- Darwin-19.6.0-x86_64-i386-64bit 2022-04-02 02:07:23
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         LaatUI:0x7fa04ba275f8
+- ** ---------- .> transport:   redis://101.37.30.155:6379/0
+- ** ---------- .> results:     
+- *** --- * --- .> concurrency: 4 (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+  . cases.task.celery_run_case
+  . cases.task.celery_test
+

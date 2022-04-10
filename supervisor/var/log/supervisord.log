@@ -1,0 +1,67 @@
+2022-04-02 09:45:02,929 INFO Included extra file "/Users/sunxinyang/Desktop/LaatUI/supervisor/conf.d/myweb.ini" during parsing
+2022-04-02 09:45:02,929 INFO Set uid to user 502 succeeded
+2022-04-02 09:45:02,938 INFO RPC interface 'supervisor' initialized
+2022-04-02 09:45:02,939 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2022-04-02 09:45:02,941 INFO daemonizing the supervisord process
+2022-04-02 09:45:02,944 INFO supervisord started with pid 1921
+2022-04-02 09:45:03,949 INFO spawned: 'LaatUI' with pid 1922
+2022-04-02 09:45:05,478 INFO success: LaatUI entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-04-02 09:51:56,129 INFO waiting for LaatUI to stop
+2022-04-02 09:51:57,309 INFO stopped: LaatUI (exit status 0)
+2022-04-02 09:51:58,320 INFO spawned: 'LaatUI' with pid 2150
+2022-04-02 09:51:59,324 INFO success: LaatUI entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-04-02 09:56:50,991 INFO waiting for LaatUI to die
+2022-04-02 09:56:51,394 INFO stopped: LaatUI (exit status 0)
+2022-04-02 09:56:51,417 INFO Included extra file "/Users/sunxinyang/Desktop/LaatUI/supervisor/conf.d/myweb.ini" during parsing
+2022-04-02 09:56:51,418 INFO Set uid to user 502 succeeded
+2022-04-02 09:56:51,420 INFO RPC interface 'supervisor' initialized
+2022-04-02 09:56:51,420 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2022-04-02 09:56:51,421 INFO supervisord started with pid 1921
+2022-04-02 09:56:52,426 INFO spawned: 'LaatUI' with pid 2332
+2022-04-02 09:56:53,429 INFO success: LaatUI entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-04-02 09:59:41,519 INFO waiting for LaatUI to die
+2022-04-02 09:59:41,936 INFO stopped: LaatUI (exit status 0)
+2022-04-02 09:59:41,971 INFO Included extra file "/Users/sunxinyang/Desktop/LaatUI/supervisor/conf.d/myweb.ini" during parsing
+2022-04-02 09:59:41,972 INFO Set uid to user 502 succeeded
+2022-04-02 09:59:41,974 INFO RPC interface 'supervisor' initialized
+2022-04-02 09:59:41,974 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2022-04-02 09:59:41,975 INFO supervisord started with pid 1921
+2022-04-02 09:59:42,980 INFO spawned: 'LaatUI' with pid 2450
+2022-04-02 09:59:44,759 INFO success: LaatUI entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-04-02 10:05:19,406 INFO waiting for LaatUI to die
+2022-04-02 10:05:20,681 INFO stopped: LaatUI (exit status 0)
+2022-04-02 10:05:20,708 INFO Included extra file "/Users/sunxinyang/Desktop/LaatUI/supervisor/conf.d/celery.ini" during parsing
+2022-04-02 10:05:20,709 INFO Included extra file "/Users/sunxinyang/Desktop/LaatUI/supervisor/conf.d/myweb.ini" during parsing
+2022-04-02 10:05:20,709 INFO Set uid to user 502 succeeded
+2022-04-02 10:05:20,711 INFO RPC interface 'supervisor' initialized
+2022-04-02 10:05:20,711 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2022-04-02 10:05:20,712 INFO supervisord started with pid 1921
+2022-04-02 10:05:21,716 INFO spawned: 'LaatUI' with pid 2575
+2022-04-02 10:05:21,722 INFO spawned: 'celery' with pid 2576
+2022-04-02 10:05:23,312 INFO success: LaatUI entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-04-02 10:05:23,313 INFO success: celery entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-04-02 10:07:13,375 INFO waiting for LaatUI, celery to die
+2022-04-02 10:07:15,378 INFO stopped: celery (exit status 0)
+2022-04-02 10:07:16,821 INFO waiting for LaatUI to die
+2022-04-02 10:07:16,893 INFO stopped: LaatUI (exit status 0)
+2022-04-02 10:07:16,909 INFO Included extra file "/Users/sunxinyang/Desktop/LaatUI/supervisor/conf.d/celery.ini" during parsing
+2022-04-02 10:07:16,909 INFO Included extra file "/Users/sunxinyang/Desktop/LaatUI/supervisor/conf.d/celery_flower.ini" during parsing
+2022-04-02 10:07:16,910 INFO Included extra file "/Users/sunxinyang/Desktop/LaatUI/supervisor/conf.d/myweb.ini" during parsing
+2022-04-02 10:07:16,910 INFO Set uid to user 502 succeeded
+2022-04-02 10:07:16,913 INFO RPC interface 'supervisor' initialized
+2022-04-02 10:07:16,914 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2022-04-02 10:07:16,914 INFO supervisord started with pid 1921
+2022-04-02 10:07:17,918 INFO spawned: 'LaatUI' with pid 2641
+2022-04-02 10:07:17,923 INFO spawned: 'celery' with pid 2642
+2022-04-02 10:07:17,929 INFO spawned: 'celery_flower' with pid 2643
+2022-04-02 10:07:19,706 INFO success: LaatUI entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-04-02 10:07:19,706 INFO success: celery entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-04-02 10:07:19,707 INFO success: celery_flower entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-04-02 17:27:56,933 INFO waiting for LaatUI to stop
+2022-04-02 17:27:56,936 INFO waiting for celery to stop
+2022-04-02 17:27:56,937 INFO waiting for celery_flower to stop
+2022-04-02 17:27:57,911 INFO stopped: celery_flower (exit status 0)
+2022-04-02 17:27:58,058 INFO stopped: LaatUI (exit status 0)
+2022-04-02 17:27:59,068 INFO waiting for celery to stop
+2022-04-02 17:27:59,123 INFO stopped: celery (exit status 0)
+2022-04-02 18:15:00,134 WARN received SIGTERM indicating exit request

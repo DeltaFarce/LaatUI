@@ -1,0 +1,82 @@
+[2022-04-02 02:05:27,300: INFO/MainProcess] Connected to redis://101.37.30.155:6379/0
+[2022-04-02 02:05:27,336: INFO/MainProcess] mingle: searching for neighbors
+[2022-04-02 02:05:28,432: INFO/MainProcess] mingle: all alone
+[2022-04-02 02:05:28,569: WARNING/MainProcess] /Users/sunxinyang/Desktop/LaatUI/venv/lib/python3.6/site-packages/celery/fixups/django.py:204: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  leak, never use this setting in production environments!''')
+
+[2022-04-02 02:05:28,569: INFO/MainProcess] celery@sunxinyangdeMacBook-Air.local ready.
+
+worker: Warm shutdown (MainProcess)
+[2022-04-02 02:07:23,781: INFO/MainProcess] Connected to redis://101.37.30.155:6379/0
+[2022-04-02 02:07:23,819: INFO/MainProcess] mingle: searching for neighbors
+[2022-04-02 02:07:24,917: INFO/MainProcess] mingle: all alone
+[2022-04-02 02:07:25,056: WARNING/MainProcess] /Users/sunxinyang/Desktop/LaatUI/venv/lib/python3.6/site-packages/celery/fixups/django.py:204: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  leak, never use this setting in production environments!''')
+
+[2022-04-02 02:07:25,056: INFO/MainProcess] celery@sunxinyangdeMacBook-Air.local ready.
+[2022-04-02 02:07:28,045: INFO/MainProcess] Events of group {task} enabled by remote.
+[2022-04-02 06:43:01,513: INFO/MainProcess] sync with celery@iZbp1d6ukr7d6j6eosyixaZ
+[2022-04-02 06:43:47,714: INFO/MainProcess] sync with celery@iZbp1d6ukr7d6j6eosyixaZ
+[2022-04-02 06:43:57,325: INFO/MainProcess] sync with celery@iZbp1d6ukr7d6j6eosyixaZ
+[2022-04-02 08:15:31,035: INFO/MainProcess] missed heartbeat from celery@iZbp1d6ukr7d6j6eosyixaZ
+[2022-04-02 08:16:10,633: INFO/MainProcess] missed heartbeat from celery@iZbp1d6ukr7d6j6eosyixaZ
+[2022-04-02 08:16:27,176: INFO/MainProcess] missed heartbeat from celery@iZbp1d6ukr7d6j6eosyixaZ
+[2022-04-02 08:16:34,734: INFO/MainProcess] missed heartbeat from celery@iZbp1d6ukr7d6j6eosyixaZ
+[2022-04-02 08:16:40,514: INFO/MainProcess] missed heartbeat from celery@iZbp1d6ukr7d6j6eosyixaZ
+[2022-04-02 08:16:51,265: INFO/MainProcess] missed heartbeat from celery@iZbp1d6ukr7d6j6eosyixaZ
+[2022-04-02 08:18:12,918: INFO/MainProcess] missed heartbeat from celery@iZbp1d6ukr7d6j6eosyixaZ
+[2022-04-02 08:18:18,634: INFO/MainProcess] missed heartbeat from celery@iZbp1d6ukr7d6j6eosyixaZ
+[2022-04-02 08:18:29,172: INFO/MainProcess] missed heartbeat from celery@iZbp1d6ukr7d6j6eosyixaZ
+[2022-04-02 08:19:10,733: INFO/MainProcess] missed heartbeat from celery@iZbp1d6ukr7d6j6eosyixaZ
+[2022-04-02 08:19:17,799: INFO/MainProcess] missed heartbeat from celery@iZbp1d6ukr7d6j6eosyixaZ
+[2022-04-02 08:19:24,454: INFO/MainProcess] missed heartbeat from celery@iZbp1d6ukr7d6j6eosyixaZ
+[2022-04-02 08:19:36,129: INFO/MainProcess] missed heartbeat from celery@iZbp1d6ukr7d6j6eosyixaZ
+[2022-04-02 08:20:12,069: INFO/MainProcess] missed heartbeat from celery@iZbp1d6ukr7d6j6eosyixaZ
+[2022-04-02 08:20:20,635: INFO/MainProcess] missed heartbeat from celery@iZbp1d6ukr7d6j6eosyixaZ
+[2022-04-02 08:20:40,879: INFO/MainProcess] missed heartbeat from celery@iZbp1d6ukr7d6j6eosyixaZ
+[2022-04-02 08:21:08,956: INFO/MainProcess] missed heartbeat from celery@iZbp1d6ukr7d6j6eosyixaZ
+[2022-04-02 08:21:26,109: INFO/MainProcess] missed heartbeat from celery@iZbp1d6ukr7d6j6eosyixaZ
+[2022-04-02 08:21:41,881: INFO/MainProcess] missed heartbeat from celery@iZbp1d6ukr7d6j6eosyixaZ
+[2022-04-02 08:22:29,762: INFO/MainProcess] missed heartbeat from celery@iZbp1d6ukr7d6j6eosyixaZ
+[2022-04-02 08:22:42,195: INFO/MainProcess] missed heartbeat from celery@iZbp1d6ukr7d6j6eosyixaZ
+[2022-04-02 08:22:49,756: INFO/MainProcess] missed heartbeat from celery@iZbp1d6ukr7d6j6eosyixaZ
+[2022-04-02 08:23:00,659: INFO/MainProcess] missed heartbeat from celery@iZbp1d6ukr7d6j6eosyixaZ
+[2022-04-02 08:23:05,847: INFO/MainProcess] missed heartbeat from celery@iZbp1d6ukr7d6j6eosyixaZ
+[2022-04-02 08:23:20,948: INFO/MainProcess] missed heartbeat from celery@iZbp1d6ukr7d6j6eosyixaZ
+[2022-04-02 08:23:29,503: INFO/MainProcess] missed heartbeat from celery@iZbp1d6ukr7d6j6eosyixaZ
+[2022-04-02 08:23:57,766: INFO/MainProcess] missed heartbeat from celery@iZbp1d6ukr7d6j6eosyixaZ
+[2022-04-02 08:24:14,592: WARNING/MainProcess] Substantial drift from celery@iZbp1d6ukr7d6j6eosyixaZ may mean clocks are out of sync.  Current drift is
+28 seconds.  [orig: 2022-04-02 08:24:14.592261 recv: 2022-04-02 08:23:46.255114]
+
+[2022-04-02 08:24:24,767: INFO/MainProcess] missed heartbeat from celery@iZbp1d6ukr7d6j6eosyixaZ
+[2022-04-02 08:24:40,876: INFO/MainProcess] missed heartbeat from celery@iZbp1d6ukr7d6j6eosyixaZ
+[2022-04-02 08:26:17,781: INFO/MainProcess] missed heartbeat from celery@iZbp1d6ukr7d6j6eosyixaZ
+[2022-04-02 08:26:24,534: INFO/MainProcess] missed heartbeat from celery@iZbp1d6ukr7d6j6eosyixaZ
+[2022-04-02 08:26:39,736: INFO/MainProcess] missed heartbeat from celery@iZbp1d6ukr7d6j6eosyixaZ
+[2022-04-02 08:26:46,970: INFO/MainProcess] missed heartbeat from celery@iZbp1d6ukr7d6j6eosyixaZ
+[2022-04-02 08:27:07,312: INFO/MainProcess] missed heartbeat from celery@iZbp1d6ukr7d6j6eosyixaZ
+[2022-04-02 08:27:13,424: INFO/MainProcess] missed heartbeat from celery@iZbp1d6ukr7d6j6eosyixaZ
+[2022-04-02 08:28:39,615: INFO/MainProcess] missed heartbeat from celery@iZbp1d6ukr7d6j6eosyixaZ
+[2022-04-02 08:28:55,908: INFO/MainProcess] missed heartbeat from celery@iZbp1d6ukr7d6j6eosyixaZ
+[2022-04-02 08:29:16,200: INFO/MainProcess] missed heartbeat from celery@iZbp1d6ukr7d6j6eosyixaZ
+[2022-04-02 08:29:47,777: INFO/MainProcess] missed heartbeat from celery@iZbp1d6ukr7d6j6eosyixaZ
+[2022-04-02 08:29:57,386: INFO/MainProcess] missed heartbeat from celery@iZbp1d6ukr7d6j6eosyixaZ
+[2022-04-02 08:30:05,792: INFO/MainProcess] missed heartbeat from celery@iZbp1d6ukr7d6j6eosyixaZ
+[2022-04-02 08:31:16,138: INFO/MainProcess] missed heartbeat from celery@iZbp1d6ukr7d6j6eosyixaZ
+[2022-04-02 08:31:26,173: INFO/MainProcess] missed heartbeat from celery@iZbp1d6ukr7d6j6eosyixaZ
+[2022-04-02 08:31:42,839: INFO/MainProcess] missed heartbeat from celery@iZbp1d6ukr7d6j6eosyixaZ
+[2022-04-02 08:31:59,462: INFO/MainProcess] missed heartbeat from celery@iZbp1d6ukr7d6j6eosyixaZ
+[2022-04-02 08:32:18,400: INFO/MainProcess] missed heartbeat from celery@iZbp1d6ukr7d6j6eosyixaZ
+[2022-04-02 08:32:26,187: INFO/MainProcess] missed heartbeat from celery@iZbp1d6ukr7d6j6eosyixaZ
+[2022-04-02 08:32:38,245: INFO/MainProcess] missed heartbeat from celery@iZbp1d6ukr7d6j6eosyixaZ
+[2022-04-02 08:32:56,008: INFO/MainProcess] missed heartbeat from celery@iZbp1d6ukr7d6j6eosyixaZ
+[2022-04-02 08:33:05,295: INFO/MainProcess] missed heartbeat from celery@iZbp1d6ukr7d6j6eosyixaZ
+[2022-04-02 08:33:26,121: INFO/MainProcess] missed heartbeat from celery@iZbp1d6ukr7d6j6eosyixaZ
+[2022-04-02 08:34:08,577: INFO/MainProcess] missed heartbeat from celery@iZbp1d6ukr7d6j6eosyixaZ
+[2022-04-02 08:35:42,682: INFO/MainProcess] missed heartbeat from celery@iZbp1d6ukr7d6j6eosyixaZ
+[2022-04-02 08:36:00,602: INFO/MainProcess] missed heartbeat from celery@iZbp1d6ukr7d6j6eosyixaZ
+[2022-04-02 08:36:30,628: INFO/MainProcess] missed heartbeat from celery@iZbp1d6ukr7d6j6eosyixaZ
+
+worker: Warm shutdown (MainProcess)
