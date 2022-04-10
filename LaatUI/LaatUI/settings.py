@@ -105,11 +105,11 @@ DATABASES = {
         # 指定数据库用户名
         'USER': 'root',
         # 指定用户密码
-        'PASSWORD': 'sxy749860543',
-        # 'PASSWORD': 'swz191220',
+        'PASSWORD': 'xxxxxxx',
+        # 'PASSWORD': 'xxxxxxx',
         # 指定主机
         'HOST': 'localhost',
-        # 'HOST': '101.37.30.155',
+        # 'HOST': '101.xxx.xx.xxx',
         # 指定端口
         # 'PORT': 3333
         'PORT': 3306
