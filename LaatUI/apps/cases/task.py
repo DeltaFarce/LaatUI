@@ -31,9 +31,9 @@ def celery_run_case(testcase, serializer):
     os.system(f'rm -fr {casepath}')
 
     # 上传到OSS
-    auth = oss2.Auth('LTAI5tF4791LWMiwpv3JpwwM', 'QKHek3tfxknwjYpWLuzYWVBDyGTPsQ')
+    auth = oss2.Auth('xxxxxxxxx', 'xxxxxxxxxx')
     endpoint = 'https://oss-cn-beijing.aliyuncs.com'
-    bucket = oss2.Bucket(auth, endpoint, 'laatui')
+    bucket = oss2.Bucket(auth, endpoint, 'xxxx')
 
     # 上传视频
     if os.path.exists(f'{os.getcwd()}/Cy/cypress/videos/'+filename+'.js.mp4'):
@@ -44,11 +44,8 @@ def celery_run_case(testcase, serializer):
     # 上传失败截图
     if os.path.exists(f'{os.getcwd()}/Cy/cypress/screenshots/' + filename + '.js'):
         BASE_DIR = Path(__file__).resolve().parent.parent.parent
-        print(BASE_DIR)
         report_state = "失败"
         screenshots_path = os.path.join(f'{BASE_DIR}/Cy/cypress/screenshots/'+ filename + '.js',os.listdir(f'{BASE_DIR}/Cy/cypress/screenshots/{filename}.js')[0])
-        print(screenshots_path)
-        print(os.getcwd())
         with open(screenshots_path, 'rb') as f:
             bucket.put_object('screenshots/' + filename + '.png', f.read())
 
