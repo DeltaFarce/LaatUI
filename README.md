@@ -12,23 +12,30 @@ LaatUI后端是使用Python编写的一个UI自动化工具，底层使用Cypres
 #### 方式一、如果是本地运行，先将Cy目录下老的文件清空，自己进行重新安装。
 步骤：
 1、安装node.js
-RUN wget https://nodejs.org/dist/v9.3.0/node-v9.3.0-linux-x64.tar.xz
-RUN xz -d node-v9.3.0-linux-x64.tar.xz
-RUN tar -xf node-v9.3.0-linux-x64.tar
-RUN ln -s  /。。。/node-v9.3.0-linux-x64/bin/node  /usr/bin/node
-RUN ln -s  /。。。/node-v9.3.0-linux-x64/bin/npm  /usr/bin/npm
+
+`RUN wget https://nodejs.org/dist/v9.3.0/node-v9.3.0-linux-x64.tar.xz`
+
+`RUN xz -d node-v9.3.0-linux-x64.tar.xz`
+
+`RUN tar -xf node-v9.3.0-linux-x64.tar`
+
+`RUN ln -s  /。。。/node-v9.3.0-linux-x64/bin/node  /usr/bin/node`
+
+`RUN ln -s  /。。。/node-v9.3.0-linux-x64/bin/npm  /usr/bin/npm`
 
 2、安装Cypress
-npm init 生成package.json文件
-npm install -g cnpm --registry=https://registry.npm.taobao.org　　添加淘宝镜像
-cnpm install cypress --save-dev
+`npm init 生成package.json文件`
+
+`npm install -g cnpm --registry=https://registry.npm.taobao.org　　添加淘宝镜像`
+
+`cnpm install cypress --save-dev`
 
 3、试运行、生成默认文件
-npx cypress open
+`npx cypress open`
 
 #### 方式二、使用镜像运行cypress/included
 安装镜像
-docker run -it -v $PWD:/e2e -w /e2e cypress/included:3.2.0
+`docker run -it -v $PWD:/e2e -w /e2e cypress/included:3.2.0`
 直接运行项目即可
 
 前端代码：https://github.com/DeltaFarce/LaatUI_Vue
