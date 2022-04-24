@@ -24,6 +24,7 @@ LaatUI后端是使用Python编写的一个UI自动化工具，底层使用Cypres
 `RUN ln -s  /。。。/node-v9.3.0-linux-x64/bin/npm  /usr/bin/npm`
 
 2、安装Cypress
+
 `npm init 生成package.json文件`
 
 `npm install -g cnpm --registry=https://registry.npm.taobao.org　　添加淘宝镜像`
@@ -31,10 +32,12 @@ LaatUI后端是使用Python编写的一个UI自动化工具，底层使用Cypres
 `cnpm install cypress --save-dev`
 
 3、试运行、生成默认文件
+
 `npx cypress open`
 
 #### 方式二、使用镜像运行cypress/included
 安装镜像
+
 `docker run -it -v $PWD:/e2e -w /e2e cypress/included:3.2.0`
 直接运行项目即可
 
